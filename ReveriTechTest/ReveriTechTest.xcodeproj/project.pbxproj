@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B15AE392920DF4900A38A09 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AE382920DF4900A38A09 /* ProductCardView.swift */; };
+		3B15AE482920F51800A38A09 /* CartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AE472920F51800A38A09 /* CartButtonView.swift */; };
+		3B15AE4A2920F6D100A38A09 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AE492920F6D100A38A09 /* CartView.swift */; };
+		3B15AE552920FB1900A38A09 /* CartProductRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AE542920FB1900A38A09 /* CartProductRowView.swift */; };
+		3B15AE6029212F0E00A38A09 /* AnimatedCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AE5F29212F0E00A38A09 /* AnimatedCounterView.swift */; };
+		3B15AE642921470B00A38A09 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AE632921470B00A38A09 /* CartManager.swift */; };
+		3B15AE6829215AF300A38A09 /* ProductRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AE6729215AF300A38A09 /* ProductRequest.swift */; };
+		3B15AE8E2921775500A38A09 /* ImagePlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AE8D2921775500A38A09 /* ImagePlaceholder.swift */; };
+		3B15AE992921820D00A38A09 /* URL+appending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AE982921820D00A38A09 /* URL+appending.swift */; };
+		3B15AE9B2921827400A38A09 /* CartProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AE9A2921827400A38A09 /* CartProduct.swift */; };
+		3B15AEC42921948000A38A09 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AEC02921948000A38A09 /* ImageCache.swift */; };
+		3B15AEC52921948000A38A09 /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AEC12921948000A38A09 /* CachedImageManager.swift */; };
+		3B15AEC62921948000A38A09 /* ImageRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AEC22921948000A38A09 /* ImageRetriever.swift */; };
+		3B15AEC72921948000A38A09 /* CachedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AEC32921948000A38A09 /* CachedImage.swift */; };
+		3B15AED229219D1700A38A09 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B15AED129219D1700A38A09 /* Thumbnail.swift */; };
+		3BA5EFD6291FFDA300B22BE3 /* ReveriTechTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5EFD5291FFDA300B22BE3 /* ReveriTechTestApp.swift */; };
+		3BA5EFD8291FFDA300B22BE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5EFD7291FFDA300B22BE3 /* ContentView.swift */; };
+		3BA5EFDA291FFDA600B22BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA5EFD9291FFDA600B22BE3 /* Assets.xcassets */; };
+		3BA5EFDE291FFDA600B22BE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA5EFDD291FFDA600B22BE3 /* Preview Assets.xcassets */; };
+		3BA5EFE5291FFDBB00B22BE3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3BA5EFE4291FFDBB00B22BE3 /* README.md */; };
+		3BA5EFE82920079100B22BE3 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5EFE72920079100B22BE3 /* NetworkController.swift */; };
+		3BA5EFEA292007DD00B22BE3 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5EFE9292007DD00B22BE3 /* DataController.swift */; };
+		3BA5EFEE292009F300B22BE3 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5EFEC292009F300B22BE3 /* Main.xcdatamodeld */; };
+		3BA5EFF129200F6800B22BE3 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5EFF029200F6800B22BE3 /* Product.swift */; };
+		3BA5EFF62920125300B22BE3 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5EFF52920125300B22BE3 /* ProductsView.swift */; };
+		3BA5EFF92920132900B22BE3 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5EFF82920132900B22BE3 /* ProductsViewModel.swift */; };
+		3BA5EFFC29202BB200B22BE3 /* Double+FormatCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5EFFB29202BB200B22BE3 /* Double+FormatCurrency.swift */; };
+		3BA5EFFE2920318100B22BE3 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5EFFD2920318100B22BE3 /* ProductDetailView.swift */; };
+		3BA5F0002920344B00B22BE3 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5EFFF2920344B00B22BE3 /* CounterView.swift */; };
+		3BA5F00C29203B6F00B22BE3 /* RoundedButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5F00B29203B6F00B22BE3 /* RoundedButtonStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B15AE382920DF4900A38A09 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		3B15AE472920F51800A38A09 /* CartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButtonView.swift; sourceTree = "<group>"; };
+		3B15AE492920F6D100A38A09 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		3B15AE542920FB1900A38A09 /* CartProductRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProductRowView.swift; sourceTree = "<group>"; };
+		3B15AE5F29212F0E00A38A09 /* AnimatedCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCounterView.swift; sourceTree = "<group>"; };
+		3B15AE632921470B00A38A09 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		3B15AE6729215AF300A38A09 /* ProductRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRequest.swift; sourceTree = "<group>"; };
+		3B15AE8D2921775500A38A09 /* ImagePlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePlaceholder.swift; sourceTree = "<group>"; };
+		3B15AE982921820D00A38A09 /* URL+appending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+appending.swift"; sourceTree = "<group>"; };
+		3B15AE9A2921827400A38A09 /* CartProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProduct.swift; sourceTree = "<group>"; };
+		3B15AEC02921948000A38A09 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		3B15AEC12921948000A38A09 /* CachedImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedImageManager.swift; sourceTree = "<group>"; };
+		3B15AEC22921948000A38A09 /* ImageRetriever.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRetriever.swift; sourceTree = "<group>"; };
+		3B15AEC32921948000A38A09 /* CachedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedImage.swift; sourceTree = "<group>"; };
+		3B15AED129219D1700A38A09 /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+		3BA5EFD2291FFDA300B22BE3 /* ReveriTechTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReveriTechTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA5EFD5291FFDA300B22BE3 /* ReveriTechTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReveriTechTestApp.swift; sourceTree = "<group>"; };
+		3BA5EFD7291FFDA300B22BE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BA5EFD9291FFDA600B22BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BA5EFDB291FFDA600B22BE3 /* ReveriTechTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReveriTechTest.entitlements; sourceTree = "<group>"; };
+		3BA5EFDD291FFDA600B22BE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BA5EFE4291FFDBB00B22BE3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3BA5EFE72920079100B22BE3 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		3BA5EFE9292007DD00B22BE3 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		3BA5EFED292009F300B22BE3 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		3BA5EFF029200F6800B22BE3 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		3BA5EFF52920125300B22BE3 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		3BA5EFF82920132900B22BE3 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		3BA5EFFB29202BB200B22BE3 /* Double+FormatCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+FormatCurrency.swift"; sourceTree = "<group>"; };
+		3BA5EFFD2920318100B22BE3 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		3BA5EFFF2920344B00B22BE3 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		3BA5F00B29203B6F00B22BE3 /* RoundedButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BA5EFCF291FFDA300B22BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B15AE6529215ABE00A38A09 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3BA5EFF029200F6800B22BE3 /* Product.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		3B15AE6629215ACE00A38A09 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				3B15AE6729215AF300A38A09 /* ProductRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		3B15AEBE2921946E00A38A09 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				3B15AEBF2921948000A38A09 /* CachedImage */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		3B15AEBF2921948000A38A09 /* CachedImage */ = {
+			isa = PBXGroup;
+			children = (
+				3B15AEC02921948000A38A09 /* ImageCache.swift */,
+				3B15AEC12921948000A38A09 /* CachedImageManager.swift */,
+				3B15AEC22921948000A38A09 /* ImageRetriever.swift */,
+				3B15AEC32921948000A38A09 /* CachedImage.swift */,
+			);
+			path = CachedImage;
+			sourceTree = "<group>";
+		};
+		3BA5EFC9291FFDA300B22BE3 = {
+			isa = PBXGroup;
+			children = (
+				3BA5EFE4291FFDBB00B22BE3 /* README.md */,
+				3BA5EFD4291FFDA300B22BE3 /* ReveriTechTest */,
+				3BA5EFD3291FFDA300B22BE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BA5EFD3291FFDA300B22BE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA5EFD2291FFDA300B22BE3 /* ReveriTechTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA5EFD4291FFDA300B22BE3 /* ReveriTechTest */ = {
+			isa = PBXGroup;
+			children = (
+				3B15AEBE2921946E00A38A09 /* External */,
+				3BA5EFEF29200F3E00B22BE3 /* Models */,
+				3BA5EFF2292011D600B22BE3 /* Views */,
+				3BA5EFF72920130700B22BE3 /* ViewModels */,
+				3BA5EFFA29202BA000B22BE3 /* Extensions */,
+				3BA5EFEB292009A100B22BE3 /* Configuration */,
+				3BA5EFE62920055B00B22BE3 /* Controllers */,
+				3BA5EFD5291FFDA300B22BE3 /* ReveriTechTestApp.swift */,
+				3BA5EFD7291FFDA300B22BE3 /* ContentView.swift */,
+				3BA5EFD9291FFDA600B22BE3 /* Assets.xcassets */,
+				3BA5EFDC291FFDA600B22BE3 /* Preview Content */,
+			);
+			path = ReveriTechTest;
+			sourceTree = "<group>";
+		};
+		3BA5EFDC291FFDA600B22BE3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3BA5EFDD291FFDA600B22BE3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BA5EFE62920055B00B22BE3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B15AE632921470B00A38A09 /* CartManager.swift */,
+				3BA5EFE72920079100B22BE3 /* NetworkController.swift */,
+				3BA5EFE9292007DD00B22BE3 /* DataController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3BA5EFEB292009A100B22BE3 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3BA5EFDB291FFDA600B22BE3 /* ReveriTechTest.entitlements */,
+				3BA5EFEC292009F300B22BE3 /* Main.xcdatamodeld */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		3BA5EFEF29200F3E00B22BE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B15AE6629215ACE00A38A09 /* Requests */,
+				3B15AE6529215ABE00A38A09 /* CoreData */,
+				3B15AE9A2921827400A38A09 /* CartProduct.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3BA5EFF2292011D600B22BE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BA5F00A292039AA00B22BE3 /* Shared */,
+				3BA5EFF52920125300B22BE3 /* ProductsView.swift */,
+				3BA5EFFD2920318100B22BE3 /* ProductDetailView.swift */,
+				3B15AE382920DF4900A38A09 /* ProductCardView.swift */,
+				3B15AE492920F6D100A38A09 /* CartView.swift */,
+				3B15AE542920FB1900A38A09 /* CartProductRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BA5EFF72920130700B22BE3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3BA5EFF82920132900B22BE3 /* ProductsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3BA5EFFA29202BA000B22BE3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3BA5EFFB29202BB200B22BE3 /* Double+FormatCurrency.swift */,
+				3B15AE982921820D00A38A09 /* URL+appending.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3BA5F00A292039AA00B22BE3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3BA5EFFF2920344B00B22BE3 /* CounterView.swift */,
+				3B15AE5F29212F0E00A38A09 /* AnimatedCounterView.swift */,
+				3BA5F00B29203B6F00B22BE3 /* RoundedButtonStyle.swift */,
+				3B15AE472920F51800A38A09 /* CartButtonView.swift */,
+				3B15AE8D2921775500A38A09 /* ImagePlaceholder.swift */,
+				3B15AED129219D1700A38A09 /* Thumbnail.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BA5EFD1291FFDA300B22BE3 /* ReveriTechTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA5EFE1291FFDA600B22BE3 /* Build configuration list for PBXNativeTarget "ReveriTechTest" */;
+			buildPhases = (
+				3BA5EFCE291FFDA300B22BE3 /* Sources */,
+				3BA5EFCF291FFDA300B22BE3 /* Frameworks */,
+				3BA5EFD0291FFDA300B22BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReveriTechTest;
+			packageProductDependencies = (
+			);
+			productName = ReveriTechTest;
+			productReference = 3BA5EFD2291FFDA300B22BE3 /* ReveriTechTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA5EFCA291FFDA300B22BE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3BA5EFD1291FFDA300B22BE3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 3BA5EFCD291FFDA300B22BE3 /* Build configuration list for PBXProject "ReveriTechTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BA5EFC9291FFDA300B22BE3;
+			packageReferences = (
+			);
+			productRefGroup = 3BA5EFD3291FFDA300B22BE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA5EFD1291FFDA300B22BE3 /* ReveriTechTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BA5EFD0291FFDA300B22BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA5EFE5291FFDBB00B22BE3 /* README.md in Resources */,
+				3BA5EFDE291FFDA600B22BE3 /* Preview Assets.xcassets in Resources */,
+				3BA5EFDA291FFDA600B22BE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA5EFCE291FFDA300B22BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B15AE4A2920F6D100A38A09 /* CartView.swift in Sources */,
+				3B15AEC52921948000A38A09 /* CachedImageManager.swift in Sources */,
+				3B15AE6829215AF300A38A09 /* ProductRequest.swift in Sources */,
+				3B15AE992921820D00A38A09 /* URL+appending.swift in Sources */,
+				3B15AE642921470B00A38A09 /* CartManager.swift in Sources */,
+				3BA5EFF62920125300B22BE3 /* ProductsView.swift in Sources */,
+				3BA5EFFE2920318100B22BE3 /* ProductDetailView.swift in Sources */,
+				3B15AE552920FB1900A38A09 /* CartProductRowView.swift in Sources */,
+				3BA5EFD8291FFDA300B22BE3 /* ContentView.swift in Sources */,
+				3B15AEC62921948000A38A09 /* ImageRetriever.swift in Sources */,
+				3B15AE8E2921775500A38A09 /* ImagePlaceholder.swift in Sources */,
+				3B15AE9B2921827400A38A09 /* CartProduct.swift in Sources */,
+				3BA5EFF92920132900B22BE3 /* ProductsViewModel.swift in Sources */,
+				3B15AE482920F51800A38A09 /* CartButtonView.swift in Sources */,
+				3BA5EFFC29202BB200B22BE3 /* Double+FormatCurrency.swift in Sources */,
+				3BA5F00C29203B6F00B22BE3 /* RoundedButtonStyle.swift in Sources */,
+				3BA5EFEA292007DD00B22BE3 /* DataController.swift in Sources */,
+				3B15AEC42921948000A38A09 /* ImageCache.swift in Sources */,
+				3BA5F0002920344B00B22BE3 /* CounterView.swift in Sources */,
+				3BA5EFD6291FFDA300B22BE3 /* ReveriTechTestApp.swift in Sources */,
+				3BA5EFE82920079100B22BE3 /* NetworkController.swift in Sources */,
+				3BA5EFEE292009F300B22BE3 /* Main.xcdatamodeld in Sources */,
+				3B15AE392920DF4900A38A09 /* ProductCardView.swift in Sources */,
+				3B15AED229219D1700A38A09 /* Thumbnail.swift in Sources */,
+				3BA5EFF129200F6800B22BE3 /* Product.swift in Sources */,
+				3B15AE6029212F0E00A38A09 /* AnimatedCounterView.swift in Sources */,
+				3B15AEC72921948000A38A09 /* CachedImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BA5EFDF291FFDA600B22BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BA5EFE0291FFDA600B22BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3BA5EFE2291FFDA600B22BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReveriTechTest/Configuration/ReveriTechTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReveriTechTest/Preview Content\"";
+				DEVELOPMENT_TEAM = M967Y25A5P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pbf.ReveriTechTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BA5EFE3291FFDA600B22BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReveriTechTest/Configuration/ReveriTechTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReveriTechTest/Preview Content\"";
+				DEVELOPMENT_TEAM = M967Y25A5P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pbf.ReveriTechTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA5EFCD291FFDA300B22BE3 /* Build configuration list for PBXProject "ReveriTechTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA5EFDF291FFDA600B22BE3 /* Debug */,
+				3BA5EFE0291FFDA600B22BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA5EFE1291FFDA600B22BE3 /* Build configuration list for PBXNativeTarget "ReveriTechTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA5EFE2291FFDA600B22BE3 /* Debug */,
+				3BA5EFE3291FFDA600B22BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BA5EFEC292009F300B22BE3 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BA5EFED292009F300B22BE3 /* Main.xcdatamodel */,
+			);
+			currentVersion = 3BA5EFED292009F300B22BE3 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BA5EFCA291FFDA300B22BE3 /* Project object */;
+}
