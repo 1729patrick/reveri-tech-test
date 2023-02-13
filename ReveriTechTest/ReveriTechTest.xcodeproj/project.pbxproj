@@ -123,7 +123,6 @@
 		3BA5EFC9291FFDA300B22BE3 = {
 			isa = PBXGroup;
 			children = (
-				3BA5EFE4291FFDBB00B22BE3 /* README.md */,
 				3BA5EFD4291FFDA300B22BE3 /* ReveriTechTest */,
 				3BA5EFD3291FFDA300B22BE3 /* Products */,
 			);
@@ -140,6 +139,7 @@
 		3BA5EFD4291FFDA300B22BE3 /* ReveriTechTest */ = {
 			isa = PBXGroup;
 			children = (
+				3BA5EFE4291FFDBB00B22BE3 /* README.md */,
 				3B15AEBE2921946E00A38A09 /* External */,
 				3BA5EFEF29200F3E00B22BE3 /* Models */,
 				3BA5EFF2292011D600B22BE3 /* Views */,
