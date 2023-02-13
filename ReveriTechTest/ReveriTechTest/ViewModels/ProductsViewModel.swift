@@ -59,25 +59,30 @@ extension ProductsView {
                 .appending("skip", value: String(skip))
             
             networkController.fetch(url, defaultValue: ProductRequest.defaultValue) { response in
-                print("self.page", self.page, skip)
-                // Delete stored products if the app is able to load the first page
-                if response.products.count > .zero && self.page == .zero {
-                    self.dataController.deleteAll()
-                }
-                
-                for productResponse in response.products {
-                    let product = Product(context: self.dataController.container.viewContext)
+                switch response {
+                case .success(let response):
+                    print("self.page", self.page, skip)
+                    // Delete stored products if the app is able to load the first page
+                    if response.products.count > .zero && self.page == .zero {
+                        self.dataController.deleteAll()
+                    }
                     
-                    product.id = productResponse.id
-                    product.title = productResponse.title
-                    product.thumbnail = productResponse.thumbnail
-                    product.price = productResponse.price
-                    product.discountPercentage = productResponse.discountPercentage
-                    product.stock = productResponse.stock
+                    for productResponse in response.products {
+                        let product = Product(context: self.dataController.container.viewContext)
+                        
+                        product.id = productResponse.id
+                        product.title = productResponse.title
+                        product.thumbnail = productResponse.thumbnail
+                        product.price = productResponse.price
+                        product.discountPercentage = productResponse.discountPercentage
+                        product.stock = productResponse.stock
+                    }
+                    
+                    self.totalListRecords = response.total
+                    self.dataController.save()
+                case .failure(let error):
+                    print(error.localizedDescription)
                 }
-                
-                self.totalListRecords = response.total
-                self.dataController.save()
             }
         }
         
